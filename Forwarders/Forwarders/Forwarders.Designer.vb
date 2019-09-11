@@ -140,7 +140,7 @@ Partial Class MDIForwarders
         Me.TextBox16 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.txtVessel = New System.Windows.Forms.TextBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
@@ -189,7 +189,27 @@ Partial Class MDIForwarders
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.tbpCustomsInfo = New System.Windows.Forms.TabPage()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.DataGridView4 = New System.Windows.Forms.DataGridView()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.TextBox47 = New System.Windows.Forms.TextBox()
+        Me.TextBox46 = New System.Windows.Forms.TextBox()
+        Me.TextBox45 = New System.Windows.Forms.TextBox()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.TextBox44 = New System.Windows.Forms.TextBox()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.TextBox43 = New System.Windows.Forms.TextBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.TextBox42 = New System.Windows.Forms.TextBox()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label58 = New System.Windows.Forms.Label()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Label57 = New System.Windows.Forms.Label()
@@ -217,69 +237,49 @@ Partial Class MDIForwarders
         Me.TextBox31 = New System.Windows.Forms.TextBox()
         Me.TextBox30 = New System.Windows.Forms.TextBox()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.DataGridView6 = New System.Windows.Forms.DataGridView()
+        Me.DataGridView5 = New System.Windows.Forms.DataGridView()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.TextBox51 = New System.Windows.Forms.TextBox()
+        Me.TextBox50 = New System.Windows.Forms.TextBox()
+        Me.TextBox49 = New System.Windows.Forms.TextBox()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.TextBox62 = New System.Windows.Forms.TextBox()
+        Me.TextBox61 = New System.Windows.Forms.TextBox()
+        Me.TextBox60 = New System.Windows.Forms.TextBox()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.TextBox59 = New System.Windows.Forms.TextBox()
+        Me.TextBox58 = New System.Windows.Forms.TextBox()
+        Me.TextBox57 = New System.Windows.Forms.TextBox()
+        Me.TextBox56 = New System.Windows.Forms.TextBox()
+        Me.TextBox55 = New System.Windows.Forms.TextBox()
+        Me.TextBox54 = New System.Windows.Forms.TextBox()
+        Me.TextBox53 = New System.Windows.Forms.TextBox()
+        Me.TextBox52 = New System.Windows.Forms.TextBox()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.TextBox48 = New System.Windows.Forms.TextBox()
+        Me.DataGridView7 = New System.Windows.Forms.DataGridView()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.DataGridView8 = New System.Windows.Forms.DataGridView()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.TextBox28 = New System.Windows.Forms.TextBox()
         Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
-        Me.DataGridView4 = New System.Windows.Forms.DataGridView()
-        Me.DataGridView5 = New System.Windows.Forms.DataGridView()
-        Me.DataGridView6 = New System.Windows.Forms.DataGridView()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.DataGridView7 = New System.Windows.Forms.DataGridView()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label67 = New System.Windows.Forms.Label()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label69 = New System.Windows.Forms.Label()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.TextBox55 = New System.Windows.Forms.TextBox()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
-        Me.TextBox57 = New System.Windows.Forms.TextBox()
-        Me.TextBox58 = New System.Windows.Forms.TextBox()
-        Me.TextBox59 = New System.Windows.Forms.TextBox()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.Label72 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.TextBox60 = New System.Windows.Forms.TextBox()
-        Me.TextBox61 = New System.Windows.Forms.TextBox()
-        Me.TextBox62 = New System.Windows.Forms.TextBox()
-        Me.Label78 = New System.Windows.Forms.Label()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.DataGridView8 = New System.Windows.Forms.DataGridView()
         Me.MenuStrip.SuspendLayout()
         Me.ToolStrip.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -295,15 +295,15 @@ Partial Class MDIForwarders
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbpCustomsInfo.SuspendLayout()
         Me.Panel7.SuspendLayout()
+        CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel9.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.TabPage3.SuspendLayout()
-        Me.Panel9.SuspendLayout()
-        CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage1.SuspendLayout()
-        CType(Me.DataGridView7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel10.SuspendLayout()
+        CType(Me.DataGridView7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         CType(Me.DataGridView8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -966,7 +966,7 @@ Partial Class MDIForwarders
         Me.tbpDetails.Controls.Add(Me.TextBox16)
         Me.tbpDetails.Controls.Add(Me.TextBox15)
         Me.tbpDetails.Controls.Add(Me.TextBox14)
-        Me.tbpDetails.Controls.Add(Me.TextBox13)
+        Me.tbpDetails.Controls.Add(Me.txtVessel)
         Me.tbpDetails.Controls.Add(Me.Label33)
         Me.tbpDetails.Controls.Add(Me.Label32)
         Me.tbpDetails.Controls.Add(Me.Label31)
@@ -1269,12 +1269,12 @@ Partial Class MDIForwarders
         Me.TextBox14.Size = New System.Drawing.Size(339, 20)
         Me.TextBox14.TabIndex = 23
         '
-        'TextBox13
+        'txtVessel
         '
-        Me.TextBox13.Location = New System.Drawing.Point(90, 222)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox13.TabIndex = 22
+        Me.txtVessel.Location = New System.Drawing.Point(90, 222)
+        Me.txtVessel.Name = "txtVessel"
+        Me.txtVessel.Size = New System.Drawing.Size(109, 20)
+        Me.txtVessel.TabIndex = 22
         '
         'Label33
         '
@@ -1754,6 +1754,168 @@ Partial Class MDIForwarders
         Me.Panel7.Size = New System.Drawing.Size(866, 404)
         Me.Panel7.TabIndex = 0
         '
+        'DataGridView4
+        '
+        Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView4.Location = New System.Drawing.Point(3, 245)
+        Me.DataGridView4.Name = "DataGridView4"
+        Me.DataGridView4.Size = New System.Drawing.Size(756, 126)
+        Me.DataGridView4.TabIndex = 26
+        '
+        'Panel9
+        '
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Controls.Add(Me.TextBox47)
+        Me.Panel9.Controls.Add(Me.TextBox46)
+        Me.Panel9.Controls.Add(Me.TextBox45)
+        Me.Panel9.Controls.Add(Me.Label65)
+        Me.Panel9.Controls.Add(Me.Label64)
+        Me.Panel9.Controls.Add(Me.TextBox44)
+        Me.Panel9.Controls.Add(Me.ComboBox7)
+        Me.Panel9.Controls.Add(Me.CheckBox12)
+        Me.Panel9.Controls.Add(Me.ComboBox6)
+        Me.Panel9.Controls.Add(Me.TextBox43)
+        Me.Panel9.Controls.Add(Me.ComboBox5)
+        Me.Panel9.Controls.Add(Me.TextBox42)
+        Me.Panel9.Controls.Add(Me.Label63)
+        Me.Panel9.Controls.Add(Me.Label62)
+        Me.Panel9.Controls.Add(Me.Label61)
+        Me.Panel9.Controls.Add(Me.Label60)
+        Me.Panel9.Location = New System.Drawing.Point(591, 3)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(270, 232)
+        Me.Panel9.TabIndex = 25
+        '
+        'TextBox47
+        '
+        Me.TextBox47.Location = New System.Drawing.Point(190, 145)
+        Me.TextBox47.Name = "TextBox47"
+        Me.TextBox47.Size = New System.Drawing.Size(75, 20)
+        Me.TextBox47.TabIndex = 15
+        '
+        'TextBox46
+        '
+        Me.TextBox46.Location = New System.Drawing.Point(190, 100)
+        Me.TextBox46.Name = "TextBox46"
+        Me.TextBox46.Size = New System.Drawing.Size(75, 20)
+        Me.TextBox46.TabIndex = 14
+        '
+        'TextBox45
+        '
+        Me.TextBox45.Location = New System.Drawing.Point(190, 46)
+        Me.TextBox45.Name = "TextBox45"
+        Me.TextBox45.Size = New System.Drawing.Size(75, 20)
+        Me.TextBox45.TabIndex = 13
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Location = New System.Drawing.Point(3, 174)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(51, 14)
+        Me.Label65.TabIndex = 12
+        Me.Label65.Text = "CUD/VAT"
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Location = New System.Drawing.Point(3, 146)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(73, 14)
+        Me.Label64.TabIndex = 11
+        Me.Label64.Text = "Payment Time"
+        '
+        'TextBox44
+        '
+        Me.TextBox44.Location = New System.Drawing.Point(81, 171)
+        Me.TextBox44.Name = "TextBox44"
+        Me.TextBox44.Size = New System.Drawing.Size(119, 20)
+        Me.TextBox44.TabIndex = 10
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Location = New System.Drawing.Point(81, 143)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(104, 22)
+        Me.ComboBox7.TabIndex = 9
+        '
+        'CheckBox12
+        '
+        Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Location = New System.Drawing.Point(61, 122)
+        Me.CheckBox12.Name = "CheckBox12"
+        Me.CheckBox12.Size = New System.Drawing.Size(67, 18)
+        Me.CheckBox12.TabIndex = 8
+        Me.CheckBox12.Text = "Payment"
+        Me.CheckBox12.UseVisualStyleBackColor = True
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Location = New System.Drawing.Point(81, 98)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(104, 22)
+        Me.ComboBox6.TabIndex = 7
+        '
+        'TextBox43
+        '
+        Me.TextBox43.Location = New System.Drawing.Point(81, 72)
+        Me.TextBox43.Name = "TextBox43"
+        Me.TextBox43.Size = New System.Drawing.Size(119, 20)
+        Me.TextBox43.TabIndex = 6
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Location = New System.Drawing.Point(81, 44)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(104, 22)
+        Me.ComboBox5.TabIndex = 5
+        '
+        'TextBox42
+        '
+        Me.TextBox42.Location = New System.Drawing.Point(81, 18)
+        Me.TextBox42.Name = "TextBox42"
+        Me.TextBox42.Size = New System.Drawing.Size(119, 20)
+        Me.TextBox42.TabIndex = 4
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Location = New System.Drawing.Point(3, 99)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(69, 14)
+        Me.Label63.TabIndex = 3
+        Me.Label63.Text = "Final Assess"
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(3, 73)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(56, 14)
+        Me.Label62.TabIndex = 2
+        Me.Label62.Text = "Selectivity"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Location = New System.Drawing.Point(3, 47)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(57, 14)
+        Me.Label61.TabIndex = 1
+        Me.Label61.Text = "Time Send"
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(3, 21)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(51, 14)
+        Me.Label60.TabIndex = 0
+        Me.Label60.Text = "Entry No."
+        '
         'Panel8
         '
         Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1765,6 +1927,24 @@ Partial Class MDIForwarders
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(260, 66)
         Me.Panel8.TabIndex = 24
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(12, 34)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(90, 14)
+        Me.Label59.TabIndex = 26
+        Me.Label59.Text = "Demurrage Begin"
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Location = New System.Drawing.Point(12, 6)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(75, 14)
+        Me.Label58.TabIndex = 25
+        Me.Label58.Text = "Storage Begin"
         '
         'ComboBox4
         '
@@ -1988,222 +2168,13 @@ Partial Class MDIForwarders
         Me.TabPage3.Text = "History"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'Label44
+        'DataGridView6
         '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(7, 729)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(65, 14)
-        Me.Label44.TabIndex = 34
-        Me.Label44.Text = "Encoded By"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(208, 729)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(71, 14)
-        Me.Label45.TabIndex = 35
-        Me.Label45.Text = "Approved By"
-        '
-        'TextBox28
-        '
-        Me.TextBox28.Location = New System.Drawing.Point(78, 726)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox28.TabIndex = 36
-        '
-        'TextBox29
-        '
-        Me.TextBox29.Location = New System.Drawing.Point(285, 726)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox29.TabIndex = 37
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(12, 6)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(75, 14)
-        Me.Label58.TabIndex = 25
-        Me.Label58.Text = "Storage Begin"
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(12, 34)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(90, 14)
-        Me.Label59.TabIndex = 26
-        Me.Label59.Text = "Demurrage Begin"
-        '
-        'Panel9
-        '
-        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel9.Controls.Add(Me.TextBox47)
-        Me.Panel9.Controls.Add(Me.TextBox46)
-        Me.Panel9.Controls.Add(Me.TextBox45)
-        Me.Panel9.Controls.Add(Me.Label65)
-        Me.Panel9.Controls.Add(Me.Label64)
-        Me.Panel9.Controls.Add(Me.TextBox44)
-        Me.Panel9.Controls.Add(Me.ComboBox7)
-        Me.Panel9.Controls.Add(Me.CheckBox12)
-        Me.Panel9.Controls.Add(Me.ComboBox6)
-        Me.Panel9.Controls.Add(Me.TextBox43)
-        Me.Panel9.Controls.Add(Me.ComboBox5)
-        Me.Panel9.Controls.Add(Me.TextBox42)
-        Me.Panel9.Controls.Add(Me.Label63)
-        Me.Panel9.Controls.Add(Me.Label62)
-        Me.Panel9.Controls.Add(Me.Label61)
-        Me.Panel9.Controls.Add(Me.Label60)
-        Me.Panel9.Location = New System.Drawing.Point(591, 3)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(270, 232)
-        Me.Panel9.TabIndex = 25
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(3, 21)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(51, 14)
-        Me.Label60.TabIndex = 0
-        Me.Label60.Text = "Entry No."
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(3, 47)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(57, 14)
-        Me.Label61.TabIndex = 1
-        Me.Label61.Text = "Time Send"
-        '
-        'Label62
-        '
-        Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(3, 73)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(56, 14)
-        Me.Label62.TabIndex = 2
-        Me.Label62.Text = "Selectivity"
-        '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.Location = New System.Drawing.Point(3, 99)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(69, 14)
-        Me.Label63.TabIndex = 3
-        Me.Label63.Text = "Final Assess"
-        '
-        'ContextMenuStrip1
-        '
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
-        '
-        'TextBox42
-        '
-        Me.TextBox42.Location = New System.Drawing.Point(81, 18)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(119, 20)
-        Me.TextBox42.TabIndex = 4
-        '
-        'ComboBox5
-        '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(81, 44)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(104, 22)
-        Me.ComboBox5.TabIndex = 5
-        '
-        'TextBox43
-        '
-        Me.TextBox43.Location = New System.Drawing.Point(81, 72)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(119, 20)
-        Me.TextBox43.TabIndex = 6
-        '
-        'ComboBox6
-        '
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(81, 98)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(104, 22)
-        Me.ComboBox6.TabIndex = 7
-        '
-        'CheckBox12
-        '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(61, 122)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(67, 18)
-        Me.CheckBox12.TabIndex = 8
-        Me.CheckBox12.Text = "Payment"
-        Me.CheckBox12.UseVisualStyleBackColor = True
-        '
-        'ComboBox7
-        '
-        Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Location = New System.Drawing.Point(81, 143)
-        Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(104, 22)
-        Me.ComboBox7.TabIndex = 9
-        '
-        'TextBox44
-        '
-        Me.TextBox44.Location = New System.Drawing.Point(81, 171)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(119, 20)
-        Me.TextBox44.TabIndex = 10
-        '
-        'Label64
-        '
-        Me.Label64.AutoSize = True
-        Me.Label64.Location = New System.Drawing.Point(3, 146)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(73, 14)
-        Me.Label64.TabIndex = 11
-        Me.Label64.Text = "Payment Time"
-        '
-        'Label65
-        '
-        Me.Label65.AutoSize = True
-        Me.Label65.Location = New System.Drawing.Point(3, 174)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(51, 14)
-        Me.Label65.TabIndex = 12
-        Me.Label65.Text = "CUD/VAT"
-        '
-        'TextBox45
-        '
-        Me.TextBox45.Location = New System.Drawing.Point(190, 46)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(75, 20)
-        Me.TextBox45.TabIndex = 13
-        '
-        'TextBox46
-        '
-        Me.TextBox46.Location = New System.Drawing.Point(190, 100)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(75, 20)
-        Me.TextBox46.TabIndex = 14
-        '
-        'TextBox47
-        '
-        Me.TextBox47.Location = New System.Drawing.Point(190, 145)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(75, 20)
-        Me.TextBox47.TabIndex = 15
-        '
-        'DataGridView4
-        '
-        Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView4.Location = New System.Drawing.Point(3, 245)
-        Me.DataGridView4.Name = "DataGridView4"
-        Me.DataGridView4.Size = New System.Drawing.Size(756, 126)
-        Me.DataGridView4.TabIndex = 26
+        Me.DataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView6.Location = New System.Drawing.Point(6, 229)
+        Me.DataGridView6.Name = "DataGridView6"
+        Me.DataGridView6.Size = New System.Drawing.Size(866, 210)
+        Me.DataGridView6.TabIndex = 1
         '
         'DataGridView5
         '
@@ -2212,14 +2183,6 @@ Partial Class MDIForwarders
         Me.DataGridView5.Name = "DataGridView5"
         Me.DataGridView5.Size = New System.Drawing.Size(866, 217)
         Me.DataGridView5.TabIndex = 0
-        '
-        'DataGridView6
-        '
-        Me.DataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView6.Location = New System.Drawing.Point(6, 229)
-        Me.DataGridView6.Name = "DataGridView6"
-        Me.DataGridView6.Size = New System.Drawing.Size(866, 210)
-        Me.DataGridView6.TabIndex = 1
         '
         'TabPage1
         '
@@ -2236,69 +2199,6 @@ Partial Class MDIForwarders
         Me.TabPage1.Text = "Certificate of Payment"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'DataGridView7
-        '
-        Me.DataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView7.Location = New System.Drawing.Point(3, 3)
-        Me.DataGridView7.Name = "DataGridView7"
-        Me.DataGridView7.Size = New System.Drawing.Size(130, 150)
-        Me.DataGridView7.TabIndex = 0
-        '
-        'TextBox48
-        '
-        Me.TextBox48.Location = New System.Drawing.Point(204, 15)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(143, 20)
-        Me.TextBox48.TabIndex = 1
-        '
-        'TextBox49
-        '
-        Me.TextBox49.Location = New System.Drawing.Point(269, 52)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(541, 20)
-        Me.TextBox49.TabIndex = 2
-        '
-        'TextBox50
-        '
-        Me.TextBox50.Location = New System.Drawing.Point(269, 78)
-        Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(541, 20)
-        Me.TextBox50.TabIndex = 3
-        '
-        'TextBox51
-        '
-        Me.TextBox51.Location = New System.Drawing.Point(654, 26)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(156, 20)
-        Me.TextBox51.TabIndex = 4
-        '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.Location = New System.Drawing.Point(162, 18)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(36, 14)
-        Me.Label66.TabIndex = 5
-        Me.Label66.Text = "CP No"
-        '
-        'Label67
-        '
-        Me.Label67.AutoSize = True
-        Me.Label67.Location = New System.Drawing.Point(179, 44)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(52, 14)
-        Me.Label67.TabIndex = 6
-        Me.Label67.Text = "Cosignee"
-        '
-        'Label68
-        '
-        Me.Label68.AutoSize = True
-        Me.Label68.Location = New System.Drawing.Point(178, 70)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(72, 14)
-        Me.Label68.TabIndex = 7
-        Me.Label68.Text = "Manufacturer"
-        '
         'Label69
         '
         Me.Label69.AutoSize = True
@@ -2307,6 +2207,27 @@ Partial Class MDIForwarders
         Me.Label69.Size = New System.Drawing.Size(64, 14)
         Me.Label69.TabIndex = 8
         Me.Label69.Text = "Issued Date"
+        '
+        'TextBox51
+        '
+        Me.TextBox51.Location = New System.Drawing.Point(654, 26)
+        Me.TextBox51.Name = "TextBox51"
+        Me.TextBox51.Size = New System.Drawing.Size(156, 20)
+        Me.TextBox51.TabIndex = 4
+        '
+        'TextBox50
+        '
+        Me.TextBox50.Location = New System.Drawing.Point(269, 78)
+        Me.TextBox50.Name = "TextBox50"
+        Me.TextBox50.Size = New System.Drawing.Size(541, 20)
+        Me.TextBox50.TabIndex = 3
+        '
+        'TextBox49
+        '
+        Me.TextBox49.Location = New System.Drawing.Point(269, 52)
+        Me.TextBox49.Name = "TextBox49"
+        Me.TextBox49.Size = New System.Drawing.Size(541, 20)
+        Me.TextBox49.TabIndex = 2
         '
         'Panel10
         '
@@ -2343,163 +2264,14 @@ Partial Class MDIForwarders
         Me.Panel10.Size = New System.Drawing.Size(828, 452)
         Me.Panel10.TabIndex = 9
         '
-        'TextBox52
+        'Label80
         '
-        Me.TextBox52.Location = New System.Drawing.Point(291, 118)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox52.TabIndex = 8
-        '
-        'TextBox53
-        '
-        Me.TextBox53.Location = New System.Drawing.Point(291, 144)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox53.TabIndex = 9
-        '
-        'TextBox54
-        '
-        Me.TextBox54.Location = New System.Drawing.Point(291, 170)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox54.TabIndex = 10
-        '
-        'TextBox55
-        '
-        Me.TextBox55.Location = New System.Drawing.Point(291, 196)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox55.TabIndex = 11
-        '
-        'TextBox56
-        '
-        Me.TextBox56.Location = New System.Drawing.Point(291, 237)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox56.TabIndex = 12
-        '
-        'TextBox57
-        '
-        Me.TextBox57.Location = New System.Drawing.Point(291, 263)
-        Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox57.TabIndex = 13
-        '
-        'TextBox58
-        '
-        Me.TextBox58.Location = New System.Drawing.Point(291, 289)
-        Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox58.TabIndex = 14
-        '
-        'TextBox59
-        '
-        Me.TextBox59.Location = New System.Drawing.Point(291, 328)
-        Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(421, 20)
-        Me.TextBox59.TabIndex = 15
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Location = New System.Drawing.Point(179, 121)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(38, 14)
-        Me.Label70.TabIndex = 16
-        Me.Label70.Text = "Series"
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Location = New System.Drawing.Point(179, 147)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(34, 14)
-        Me.Label71.TabIndex = 17
-        Me.Label71.Text = "Class"
-        '
-        'Label72
-        '
-        Me.Label72.AutoSize = True
-        Me.Label72.Location = New System.Drawing.Point(179, 173)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(32, 14)
-        Me.Label72.TabIndex = 18
-        Me.Label72.Text = "Color"
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.Location = New System.Drawing.Point(179, 199)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(61, 14)
-        Me.Label73.TabIndex = 19
-        Me.Label73.Text = "Year Model"
-        '
-        'Label74
-        '
-        Me.Label74.AutoSize = True
-        Me.Label74.Location = New System.Drawing.Point(179, 240)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(55, 14)
-        Me.Label74.TabIndex = 20
-        Me.Label74.Text = "Engine No"
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.Location = New System.Drawing.Point(179, 266)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(50, 14)
-        Me.Label75.TabIndex = 21
-        Me.Label75.Text = "Serial No"
-        '
-        'Label76
-        '
-        Me.Label76.AutoSize = True
-        Me.Label76.Location = New System.Drawing.Point(179, 292)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(106, 14)
-        Me.Label76.TabIndex = 22
-        Me.Label76.Text = "Engine Displacement"
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.Location = New System.Drawing.Point(179, 331)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(51, 14)
-        Me.Label77.TabIndex = 23
-        Me.Label77.Text = "Examiner"
-        '
-        'TextBox60
-        '
-        Me.TextBox60.Location = New System.Drawing.Point(291, 414)
-        Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox60.TabIndex = 24
-        '
-        'TextBox61
-        '
-        Me.TextBox61.Location = New System.Drawing.Point(291, 388)
-        Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(421, 20)
-        Me.TextBox61.TabIndex = 25
-        '
-        'TextBox62
-        '
-        Me.TextBox62.Location = New System.Drawing.Point(291, 362)
-        Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox62.TabIndex = 26
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.Location = New System.Drawing.Point(179, 365)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(84, 14)
-        Me.Label78.TabIndex = 27
-        Me.Label78.Text = "Date of Delivery"
+        Me.Label80.AutoSize = True
+        Me.Label80.Location = New System.Drawing.Point(179, 417)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(77, 14)
+        Me.Label80.TabIndex = 29
+        Me.Label80.Text = "Received Date"
         '
         'Label79
         '
@@ -2510,14 +2282,205 @@ Partial Class MDIForwarders
         Me.Label79.TabIndex = 28
         Me.Label79.Text = "Received By"
         '
-        'Label80
+        'Label78
         '
-        Me.Label80.AutoSize = True
-        Me.Label80.Location = New System.Drawing.Point(179, 417)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(77, 14)
-        Me.Label80.TabIndex = 29
-        Me.Label80.Text = "Received Date"
+        Me.Label78.AutoSize = True
+        Me.Label78.Location = New System.Drawing.Point(179, 365)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(84, 14)
+        Me.Label78.TabIndex = 27
+        Me.Label78.Text = "Date of Delivery"
+        '
+        'TextBox62
+        '
+        Me.TextBox62.Location = New System.Drawing.Point(291, 362)
+        Me.TextBox62.Name = "TextBox62"
+        Me.TextBox62.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox62.TabIndex = 26
+        '
+        'TextBox61
+        '
+        Me.TextBox61.Location = New System.Drawing.Point(291, 388)
+        Me.TextBox61.Name = "TextBox61"
+        Me.TextBox61.Size = New System.Drawing.Size(421, 20)
+        Me.TextBox61.TabIndex = 25
+        '
+        'TextBox60
+        '
+        Me.TextBox60.Location = New System.Drawing.Point(291, 414)
+        Me.TextBox60.Name = "TextBox60"
+        Me.TextBox60.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox60.TabIndex = 24
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Location = New System.Drawing.Point(179, 331)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(51, 14)
+        Me.Label77.TabIndex = 23
+        Me.Label77.Text = "Examiner"
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.Location = New System.Drawing.Point(179, 292)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(106, 14)
+        Me.Label76.TabIndex = 22
+        Me.Label76.Text = "Engine Displacement"
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Location = New System.Drawing.Point(179, 266)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(50, 14)
+        Me.Label75.TabIndex = 21
+        Me.Label75.Text = "Serial No"
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.Location = New System.Drawing.Point(179, 240)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(55, 14)
+        Me.Label74.TabIndex = 20
+        Me.Label74.Text = "Engine No"
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Location = New System.Drawing.Point(179, 199)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(61, 14)
+        Me.Label73.TabIndex = 19
+        Me.Label73.Text = "Year Model"
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Location = New System.Drawing.Point(179, 173)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(32, 14)
+        Me.Label72.TabIndex = 18
+        Me.Label72.Text = "Color"
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Location = New System.Drawing.Point(179, 147)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(34, 14)
+        Me.Label71.TabIndex = 17
+        Me.Label71.Text = "Class"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Location = New System.Drawing.Point(179, 121)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(38, 14)
+        Me.Label70.TabIndex = 16
+        Me.Label70.Text = "Series"
+        '
+        'TextBox59
+        '
+        Me.TextBox59.Location = New System.Drawing.Point(291, 328)
+        Me.TextBox59.Name = "TextBox59"
+        Me.TextBox59.Size = New System.Drawing.Size(421, 20)
+        Me.TextBox59.TabIndex = 15
+        '
+        'TextBox58
+        '
+        Me.TextBox58.Location = New System.Drawing.Point(291, 289)
+        Me.TextBox58.Name = "TextBox58"
+        Me.TextBox58.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox58.TabIndex = 14
+        '
+        'TextBox57
+        '
+        Me.TextBox57.Location = New System.Drawing.Point(291, 263)
+        Me.TextBox57.Name = "TextBox57"
+        Me.TextBox57.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox57.TabIndex = 13
+        '
+        'TextBox56
+        '
+        Me.TextBox56.Location = New System.Drawing.Point(291, 237)
+        Me.TextBox56.Name = "TextBox56"
+        Me.TextBox56.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox56.TabIndex = 12
+        '
+        'TextBox55
+        '
+        Me.TextBox55.Location = New System.Drawing.Point(291, 196)
+        Me.TextBox55.Name = "TextBox55"
+        Me.TextBox55.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox55.TabIndex = 11
+        '
+        'TextBox54
+        '
+        Me.TextBox54.Location = New System.Drawing.Point(291, 170)
+        Me.TextBox54.Name = "TextBox54"
+        Me.TextBox54.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox54.TabIndex = 10
+        '
+        'TextBox53
+        '
+        Me.TextBox53.Location = New System.Drawing.Point(291, 144)
+        Me.TextBox53.Name = "TextBox53"
+        Me.TextBox53.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox53.TabIndex = 9
+        '
+        'TextBox52
+        '
+        Me.TextBox52.Location = New System.Drawing.Point(291, 118)
+        Me.TextBox52.Name = "TextBox52"
+        Me.TextBox52.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox52.TabIndex = 8
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Location = New System.Drawing.Point(178, 70)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(72, 14)
+        Me.Label68.TabIndex = 7
+        Me.Label68.Text = "Manufacturer"
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Location = New System.Drawing.Point(179, 44)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(52, 14)
+        Me.Label67.TabIndex = 6
+        Me.Label67.Text = "Cosignee"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Location = New System.Drawing.Point(162, 18)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(36, 14)
+        Me.Label66.TabIndex = 5
+        Me.Label66.Text = "CP No"
+        '
+        'TextBox48
+        '
+        Me.TextBox48.Location = New System.Drawing.Point(204, 15)
+        Me.TextBox48.Name = "TextBox48"
+        Me.TextBox48.Size = New System.Drawing.Size(143, 20)
+        Me.TextBox48.TabIndex = 1
+        '
+        'DataGridView7
+        '
+        Me.DataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView7.Location = New System.Drawing.Point(3, 3)
+        Me.DataGridView7.Name = "DataGridView7"
+        Me.DataGridView7.Size = New System.Drawing.Size(130, 150)
+        Me.DataGridView7.TabIndex = 0
         '
         'TabPage2
         '
@@ -2537,6 +2500,43 @@ Partial Class MDIForwarders
         Me.DataGridView8.Name = "DataGridView8"
         Me.DataGridView8.Size = New System.Drawing.Size(866, 452)
         Me.DataGridView8.TabIndex = 0
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(7, 729)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(65, 14)
+        Me.Label44.TabIndex = 34
+        Me.Label44.Text = "Encoded By"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(208, 729)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(71, 14)
+        Me.Label45.TabIndex = 35
+        Me.Label45.Text = "Approved By"
+        '
+        'TextBox28
+        '
+        Me.TextBox28.Location = New System.Drawing.Point(78, 726)
+        Me.TextBox28.Name = "TextBox28"
+        Me.TextBox28.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox28.TabIndex = 36
+        '
+        'TextBox29
+        '
+        Me.TextBox29.Location = New System.Drawing.Point(285, 726)
+        Me.TextBox29.Name = "TextBox29"
+        Me.TextBox29.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox29.TabIndex = 37
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
         'MDIForwarders
         '
@@ -2602,19 +2602,19 @@ Partial Class MDIForwarders
         Me.tbpCustomsInfo.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
+        CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
-        CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        CType(Me.DataGridView7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel10.ResumeLayout(False)
         Me.Panel10.PerformLayout()
+        CType(Me.DataGridView7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         CType(Me.DataGridView8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -2757,7 +2757,7 @@ Partial Class MDIForwarders
     Friend WithEvents TextBox16 As TextBox
     Friend WithEvents TextBox15 As TextBox
     Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents txtVessel As TextBox
     Friend WithEvents TextBox19 As TextBox
     Friend WithEvents Label36 As Label
     Friend WithEvents Label35 As Label
