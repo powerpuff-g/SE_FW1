@@ -11,7 +11,7 @@
         If (chk.fCHK(txtUsername.Text, txtUsername.Text)) Then
             MDIForwarders.Show()
         Else
-            MsgBox("Login not successful!")
+            MsgBox("Login not successfully!")
         End If
     End Sub
 End Class
