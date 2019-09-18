@@ -10,6 +10,7 @@
 
         If (chk.fCHK(txtUsername.Text, txtUsername.Text)) Then
             MDIForwarders.Show()
+            Me.Close()
         Else
             MsgBox("Login not successfully!")
         End If

@@ -26,3 +26,4 @@ C:\Users\Albatross\Desktop\Git\SE_FW1\Forwarders\Forwarders\obj\Debug\Forwarders
 C:\Users\Albatross\Desktop\Git\SE_FW1\Forwarders\Forwarders\obj\Debug\Forwarders.exe
 C:\Users\Albatross\Desktop\Git\SE_FW1\Forwarders\Forwarders\obj\Debug\Forwarders.xml
 C:\Users\Albatross\Desktop\Git\SE_FW1\Forwarders\Forwarders\obj\Debug\Forwarders.pdb
+C:\Users\HP\Desktop\khel\Git\Sofeng\SE_FW1\Forwarders\Forwarders\obj\Debug\Forwarders.vbprojResolveAssemblyReference.cache
